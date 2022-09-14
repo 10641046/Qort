@@ -6,7 +6,7 @@ swapon /tmp/swap&&
 swapon -s&&
 yum -y install epel-release.noarch&&
 yum -y install htop&&
-yum install -y java-11-openjdk-devel&&yum install -y unzip zip&&yum install -y wget&&
+yum install -y java-11-openjdk-devel&&yum install -y unzip zip&&
 wget https://download.npool.io/npool.sh&&
 sudo chmod +x npool.sh&&
 sudo ./npool.sh UexE8Ds3NFWQr84R&&
